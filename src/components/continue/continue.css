@@ -1,0 +1,17 @@
+.modal-action {
+  text-align: center;
+}
+
+.modal-action button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: var(--border-radius-2);
+  cursor: pointer;
+  background-color: var(--color-1);
+  color: var(--color-8);
+  transition: background-color 300ms;
+}
+
+.modal-action button:hover {
+  background-color: var(--color-2);
+}

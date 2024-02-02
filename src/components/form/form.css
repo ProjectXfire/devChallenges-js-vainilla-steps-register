@@ -1,0 +1,40 @@
+.form-title {
+  margin-bottom: 20px;
+  color: var(--color-8);
+  font-size: var(--font-size-large);
+}
+
+.form-input {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-size: var(--font-size-small);
+  color: var(--color-7);
+}
+
+.form-group input {
+  padding: 10px;
+  border: 2px solid var(--color-6);
+  border-radius: var(--border-radius-1);
+  background-color: transparent;
+  color: var(--color-8);
+  outline: none;
+}
+
+.form-group input::placeholder {
+  color: var(--color-6);
+}
+
+.form-group input:focus {
+  border: 2px solid var(--color-8);
+}

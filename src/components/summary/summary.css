@@ -1,0 +1,36 @@
+.summary-title {
+  margin-bottom: 20px;
+  color: var(--color-8);
+  font-size: var(--font-size-large);
+}
+
+.summary-data {
+  display: flex;
+  gap: 5px;
+  font-size: var(--font-size-medium);
+}
+
+.summary-data p:nth-of-type(1) {
+  color: var(--color-7);
+}
+
+.summary-data p:nth-of-type(2) {
+  color: var(--color-8);
+  font-weight: 500;
+}
+
+.summary-topics {
+  margin: 20px 0;
+  color: var(--color-7);
+  font-size: var(--font-size-medium);
+}
+
+.topics {
+  margin-top: 5px;
+  margin-left: 22px;
+}
+
+.topics__item {
+  color: var(--color-8);
+  font-weight: 500;
+}

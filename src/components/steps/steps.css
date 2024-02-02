@@ -1,0 +1,43 @@
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: var(--color-5);
+  font-size: var(--font-size-tab);
+  font-weight: 500;
+}
+
+.steps-balls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.steps-ball {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 300ms;
+}
+
+.steps-ball-inside {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: var(--color-5);
+  transition: background-color 300ms;
+}
+
+.active-ball {
+  background-color: var(--color-5);
+}
+
+.active-ball-inside {
+  background-color: var(--color-2);
+}
