@@ -12,7 +12,7 @@ export function initRegister({ modal, footer }: Props) {
   Summary.addComponent(modal);
   Continue.addComponent(modal);
   Steps.addComponent(footer);
-  // Init listener
+  // Init listener for actions
   Form.getInstance().setupListener();
   Continue.getInstance().setupListeners();
   Topics.getInstance().setupListerners();
